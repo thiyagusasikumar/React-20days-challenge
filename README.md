@@ -8,7 +8,7 @@ I'll update this repository daily with:
 - Code snippets or mini-projects
 - Tools and technologies used
 
-> 📅 **Start Date**: May 27, 2025
+> 📅 **Start Date**: May 26, 2025
 
 ---
 
