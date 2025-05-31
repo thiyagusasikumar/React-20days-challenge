@@ -68,5 +68,20 @@ On Day 2, I explored how to pass data using **props**, manage interactive state 
 **Summary**:
 Today’s session was all about working with **arrays** and building more dynamic, data-driven components in React. I practiced rendering UI elements using `map()`, managing user interaction through `useState`, and explored how `useRef` can help store mutable values or interact directly with the DOM. I also understood when to use `useRef` vs `useState`, which cleared up some confusion. These concepts helped me see how React efficiently updates the UI and handles user data.
 
+### ✅ Day 4 – May 30, 2025
+
+**Topic Covered**:
+- 🧩 JavaScript in JSX with Curly Braces
+
+**Summary**:
+Today I explored how JavaScript expressions can be embedded directly inside JSX using curly braces `{}`. I learned how to:
+- Render variables inside JSX
+- Use expressions and function calls within JSX
+- Combine text and expressions dynamically
+- Handle inline conditional rendering (e.g., `condition ? value1 : value2`)
+
+I followed and practiced directly from the official React docs:  
+📖 https://react.dev/learn/javascript-in-jsx-with-curly-braces
+
 ---
 
