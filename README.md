@@ -83,5 +83,46 @@ Today I explored how JavaScript expressions can be embedded directly inside JSX 
 I followed and practiced directly from the official React docs:  
 📖 https://react.dev/learn/javascript-in-jsx-with-curly-braces
 
+
+---
+### ✅ Day 5 – May 31, 2025
+
+**Project**: To-Do List Application 📝
+
+**Description**:  
+Today, I built a basic but fully functional To-Do List app using React. This project helped me understand core concepts like component structure, event handling, and state management.
+
+---
+
+**✨ Features Implemented**:
+- Add new tasks via input field
+- Display tasks dynamically using the `map()` function
+- Remove specific tasks from the list using `filter()`
+- Maintain unique identifiers for task rendering
+- Real-time task updates using `useState`
+- Basic UI styling for better readability and separation
+
+---
+
+**🔧 Technologies Used**:
+- React
+- JavaScript
+- JSX
+- React Hooks (`useState`)
+- Basic CSS for styling
+
+---
+
+**🧠 Key Learnings**:
+- Handling user input and updating the UI accordingly
+- Managing arrays in React state
+- Conditional rendering for empty task lists
+- Writing clean, modular logic inside functional components
+
+---
+
+**📂 GitHub Repository**:  
+[React 20 Days Challenge](https://github.com/thiyagusasikumar/React-20days-challenge)
+
 ---
 
