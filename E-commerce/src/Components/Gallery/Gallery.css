@@ -1,0 +1,26 @@
+.gallery{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.photos{
+    flex-basis: 22.25%;
+    margin-top: 20px;
+}
+.photos img{
+    width: 100%;
+    border-radius: 25px;
+    height: 300px;
+    object-fit: cover;  
+}
+.main{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 0px 0px 60px 0px;
+}
+.btns{
+    background-color: #212ea0;
+    color:#fff ;
+}

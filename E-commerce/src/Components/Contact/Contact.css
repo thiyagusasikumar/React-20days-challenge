@@ -1,0 +1,12 @@
+.contact{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.left{
+    flex-basis: 45%;
+}
+.right{
+    flex-basis: 45%;
+}

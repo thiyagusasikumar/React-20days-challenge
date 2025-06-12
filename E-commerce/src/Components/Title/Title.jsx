@@ -4,7 +4,7 @@ const Title = ({subTitle,Titles}) => {
   return (
     <div className='title'>
         <h1>{subTitle}</h1>
-        <p>{Titles}</p>
+        <h2>{Titles}</h2>
 
     </div>
   )
