@@ -125,4 +125,36 @@ Today, I built a basic but fully functional To-Do List app using React. This pro
 [React 20 Days Challenge](https://github.com/thiyagusasikumar/React-20days-challenge)
 
 ---
+### ✅ Day 6 – June 13, 2025
+
+**Project**: Rajam Institute Website (React)
+
+---
+
+**🎯 What I Completed Today**:
+- Integrated the **Contact** and **About** components into the main React app
+- Fixed the **navbar overlapping issue** on scroll using `position: fixed` and proper layout spacing
+- Cleaned up the project folder structure and removed unused or redundant files
+- Added **basic hover effects and transitions** for improved visual aesthetics
+- Validated form fields and improved **layout consistency** across different sections
+
+---
+
+**🛠️ Technologies Used**:
+- React.js
+- HTML
+- CSS
+- JavaScript  
+(*No Tailwind CSS was used*)
+
+---
+
+**🚧 Next Steps**:
+- Make the website fully **responsive** for mobile and tablet screens
+- **Deploy** the website online and optionally link it with a **custom domain**
+
+---
+
+**📂 GitHub Repository**:  
+[React 20 Days Challenge](https://github.com/thiyagusasikumar/React-20days-challenge)
 
