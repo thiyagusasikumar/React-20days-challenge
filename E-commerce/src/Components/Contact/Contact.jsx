@@ -8,22 +8,48 @@ const Contact = () => {
   return (
     <div className='contact container '>
         <div className='left'>
-            <h1>Send us a message <img src={msg} alt="" /></h1>
-            <p>Feel free to reach out through contact form or find our contact information below. 
-            Your feedback, questions, and suggestions are important to us as we strive to provide
-            exceptional service to our university community.</p>
-            <div>
-                <img src={mail} alt="" /> <p>sthiyagusasikumark@gmail.com</p>
+            <div className='message'>
+                <h1>Send us a message </h1>
+                <img src={msg} alt="" />
             </div>
-            <div>
-                <img src={phone} alt="" /> <p>9360977635</p>
+            <p className='left-p'>Feel free to reach out through contact form or find our contact information below. 
+                Your feedback, questions, and suggestions are important to us as we strive to provide
+                exceptional service to our university community.</p>
+            <div className='mainInfo'>
+            <div className='information'>
+                <img src={mail} alt="" /> 
+                <p>sthiyagusasikumark@gmail.com</p>
             </div>
-            <div>
-                <img src={location} alt="" /> <p>32/1 Balamurugan Kovil Street Thathaneri Madurai-18</p>
+            <div className='information'>
+                <img src={phone} alt="" /> 
+                <p>9360977635</p>
+            </div>
+            <div className='information'>
+                <img src={location} alt="" /> 
+                <p>32/1 Balamurugan Kovil Street Thathaneri Madurai-18</p>
+            </div>
             </div>
         </div>
         <div className='right'>
-            hello
+            <form className='form' action="">
+                <div className='element'>
+                <label >Your Name</label>
+                <input type="text" placeholder='Enter Your Name'/>
+                </div>
+                <div className='element'> 
+                <label >Phone Number</label>
+                <input type="tel" placeholder='Enter Your Phone Number '/>
+                </div>
+                <div className='element'>
+                <label >Your Email</label>
+                <input type="email" placeholder='Enter Your Phone Number '/>
+                </div>
+                <div className='element'>
+                <label >Write your messages here</label>
+                <input type="text" placeholder='Enter Your Phone Number '/>
+                </div>
+            </form>
+            
         </div>
     </div>
   )
