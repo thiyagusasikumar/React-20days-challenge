@@ -7,7 +7,7 @@ import photo_4 from '../../assets/gallery-4.jpeg'
 import arrow from '../../assets/white-arrow.png'
 const Gallery = () => {
   return (
-    <div className='main container'>
+    <div className='main container' id="campus">
         <div className='gallery '>
         <div className='photos'>
             <img src={photo_1} alt="" />

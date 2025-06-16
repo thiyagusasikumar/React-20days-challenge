@@ -35,3 +35,71 @@ nav ul li:hover{
     background-color: #212EA0;
     transition: 0.5s;
 }
+.menu{
+    display: none;
+}
+/*----------------------------media query----------------*/
+@media (max-width:1000px){
+        .logo{
+            width: 110px;
+            height: 60px;
+        }
+        nav ul li{
+            margin:0px 13px;
+            font-size: 17px;
+        }
+        .menu{
+            display: none;
+        }
+}
+@media(max-width:800px){
+    .logo{
+        width: 100px;
+        height: 50px;
+    }
+    nav ul {
+        position: fixed;
+        top: 0;
+        right: 0px;
+        bottom: 0;
+        background: #212EA0;
+        z-index: -1;
+        width: 200px ;
+        padding-top: 70px;
+        transition: 0.5s;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: start;
+        padding-left: 12px;
+        justify-content:start;
+    }
+    nav ul li{
+        padding: 10px 0px;
+    }
+    .menu{
+        display: block;
+        width: 30px;
+        height: 30px;
+        margin: auto 0px;
+        cursor: pointer;
+    }
+    .moblie-menu{
+        right: -200px;
+    }
+    @media(max-width:800px){
+        nav ul li{
+            font-size: 17px;
+            padding: 5px 0px;
+        }
+        nav ul {
+            width: 150px ;
+            padding-top: 50px;
+            padding-left: 9px;
+        }
+        .btn-min{
+            padding: 10px;
+            font-size: 16px;
+        }
+    }
+}

@@ -8,7 +8,7 @@ import java from '../../assets/java-brands.svg'
 import data from '../../assets/chart-pie-solid.svg'
 const Programs = () => {
   return (
-    <div className='Programs container'>
+    <div className='Programs container' id='program'>
         <div className='title'>
             <h1>OUR PROGRAM </h1>
             <h2>What We Offer</h2>
