@@ -157,4 +157,31 @@ Today, I built a basic but fully functional To-Do List app using React. This pro
 
 **📂 GitHub Repository**:  
 [React 20 Days Challenge](https://github.com/thiyagusasikumar/React-20days-challenge)
+### ✅ Day 8 – June 3, 2025
+
+**Project**: Rajam Institute Website (React)
+
+---
+
+**🎯 What I Completed Today**:
+- Completed the **responsive design** for the entire website
+- Used **CSS media queries** to ensure compatibility across mobile, tablet, and desktop devices
+- Adjusted layout, spacing, and element alignment to maintain consistency on various screen sizes
+- Verified the UI using browser developer tools to simulate different devices
+
+---
+
+**🛠️ Technologies Used**:
+- React.js  
+- HTML  
+- CSS  
+- JavaScript
+
+---
+
+**🚧 Next Steps**:
+- **Deploy** the website to a live hosting platform
+- Optionally connect with a **custom domain**
+
+---
 
