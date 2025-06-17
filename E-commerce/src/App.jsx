@@ -16,13 +16,13 @@ const App = () => {
         <Hero/>
         <Programs />
         <About />
-        {/*  <Title subTitle='GALLERY' Titles='Institute Photos'/>
+        <Title subTitle='GALLERY' Titles='Institute Photos'/>
         <Gallery />
         <Title subTitle='TESTIMONIALS' Titles='What Student Says'/>
         <Testimonials/>
         <Title subTitle='CONTACT US' Titles='Get in Touch'/>
         <Contact/>
-        <Footer /> */}
+        <Footer />
     </div>
   )
 }

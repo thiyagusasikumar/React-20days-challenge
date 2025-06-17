@@ -1,6 +1,7 @@
 .contact{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .left{
     flex-basis: 48%;
@@ -100,4 +101,157 @@
     margin-bottom: 20px;
     color: #676767;;
     font-size: 16px;
+}
+@media (max-width:850px){
+    .left{
+        flex-basis: 46%;
+        padding: 10px 10px;
+    }
+    .right{
+        flex-basis: 46%;
+        padding: 10px 0px;
+    }
+    .message{gap: 10px;
+        padding: 0px 0px 10px 0px;}
+    .message h1{
+        font-size: 25px;
+    }
+    .message img{
+        width: 40px;
+    }
+    .left{
+    flex-basis: 48%;
+    padding: 10px 10px;
+    }
+.right{
+    flex-basis: 47%;
+    padding: 10px 0px;
+}
+.left-p {
+    font-size: 17px;
+    padding-bottom: 0px;
+    line-height: 25px;
+}
+.mainInfo {
+    gap: 15px;
+    margin: 15px 0px;
+}
+.information img {
+    width: 30px;
+}
+.information p {
+    font-size: 17px;
+}
+.element label {
+    font-size: 17px;
+}
+.element input {
+height: 35px;
+padding: 0px 10px;
+font-size: 14px;
+width: 90%;
+margin: 0px 0px 7px;
+}
+.yourMessage {
+    height: 115px;
+    width: 90%;
+}
+}
+@media (max-width:650px){
+    .left{
+        flex-basis: 45%;
+        padding: 5px 5px;
+    }
+    .right{
+        flex-basis: 48%;
+        padding: 5px 0px;
+    }
+    .message{gap: 10px;
+        padding: 0px 0px 10px 0px;}
+    .message h1{
+        font-size: 22px;
+    }
+    .message img{
+        width: 35px;
+    }
+.left-p {
+    font-size: 15px;
+    padding-bottom: 0px;
+    line-height: 23px;
+}
+.mainInfo {
+    gap: 15px;
+    margin: 10px 0px;
+}
+.information img {
+    width: 25px;
+}
+.information p {
+    font-size: 15px;
+}
+.element label {
+    font-size: 15px;
+}
+.element input {
+height: 30px;
+padding: 0px 10px;
+font-size: 14px;
+width: 90%;
+margin: 0px 0px 7px;
+}
+.yourMessage {
+    height: 115px;
+    width: 90%;
+}
+}
+@media (max-width:550px){
+    .left{
+        flex-basis: 90%;
+        padding: 5px 5px;
+    }
+    .right{
+        flex-basis: 90%;
+        padding: 5px 0px;
+    }
+    .message{gap: 10px;
+        padding: 0px 0px 10px 0px;}
+    .message h1{
+        font-size: 22px;
+    }
+    .message img{
+        width: 35px;
+    }
+.left-p {
+    font-size: 15px;
+    padding-bottom: 0px;
+    line-height: 23px;
+}
+.mainInfo {
+    gap: 15px;
+    margin: 10px 0px;
+}
+.information img {
+    width: 25px;
+}
+.information p {
+    font-size: 15px;
+}
+.element label {
+    font-size: 15px;
+}
+.element input {
+height: 30px;
+padding: 0px 10px;
+font-size: 14px;
+width: 90%;
+margin: 0px 0px 7px;
+}
+.yourMessage {
+    height: 115px;
+    width: 90%;
+}
+.contact{
+    display: flex;
+    justify-content:center;
+}
 }

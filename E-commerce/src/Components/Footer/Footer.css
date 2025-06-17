@@ -11,3 +11,16 @@
 .footer ul li{
     padding: 0px 10px ;
 }
+@media(max-width:800px){
+    .footer ul li{
+        font-size: 16px;
+    }
+}
+@media(max-width:600px){
+    .footer ul li{
+        font-size: 13px;
+    }
+    .footer{
+        flex-direction: column;
+    }
+}

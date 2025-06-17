@@ -45,7 +45,6 @@
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     padding: 35px 30px;
     border-radius: 25px;
-    height: 355px;
     margin:24px 15px;
 }
 .user{
@@ -73,4 +72,49 @@
 .review p{
     font-size: 16px;
     margin: 20px 10px 10px 10px;
+}
+@media (max-width:1000px){
+    .nextBtn, .backBtn{
+        right: -17px;
+    }
+    .backBtn{
+        left: -15px;
+    }
+}
+@media (max-width:755px){
+    .slider ul li{
+        flex-basis: 25%;
+    }
+    .nextBtn, .backBtn{
+        right: -35px;
+    }
+    .backBtn{
+        left: -30px;
+    }
+    .slider ul{
+        width: 400%;
+       
+}
+}
+@media (max-width:500px){
+    .review p{
+        font-size: 15px;
+        margin: 15px 5px 5px 10px;
+    }
+    .slide{
+        padding: 20px 16px;
+        margin:15px 5px;
+    }
+    .nextBtn, .backBtn{
+        right: -16px;
+        z-index: 999;
+        padding: 10px;
+        width: 35px;
+    }
+    .backBtn{
+        left: -15px;
+    }
+    .slide{
+        padding: 0px 0px;
+    }
 }
