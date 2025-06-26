@@ -20,7 +20,6 @@ const Use_Ref = () => {
       <label>Enter Your Name</label>
       <input ref={inputRef} type="text" value={name} onChange={(event)=>{setName(event.target.value)}}/>
       <h1>Hi {name}</h1>
-      <button onClick={reset}>Reset</button>
       <button onClick={printInputRef}>printInputRef</button>
       </div>
   )
