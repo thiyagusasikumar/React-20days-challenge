@@ -1,0 +1,10 @@
+{
+    "editor.suggest.showMethods": true,
+    "editor.suggest.showModules": true,
+    "javascript.suggest.enabled": true,
+    "typescript.suggest.enabled": true,
+    "editor.suggest.showKeywords": true,
+    "editor.suggest.showInterfaces": true,
+    "editor.suggest.showFunctions": true,
+    "editor.suggest.showDeprecated": true
+}
